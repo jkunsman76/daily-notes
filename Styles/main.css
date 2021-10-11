@@ -1,0 +1,53 @@
+body {
+
+}
+
+.main_header {
+
+}
+.main_header_text {
+
+}
+.main {
+
+}
+.entry {
+display:flex;
+flex: 3;
+flex-wrap: nowrap;
+overflow:scroll;
+overflow-x:hidden;
+}
+.entry_header {
+
+}
+.entry_aside {
+
+}
+.entry_text {
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #3B3C3E;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 10px 7px 5px;
+}
+.right_aside {
+display:flex;
+flex:1;
+flex-wrap: nowrap;
+}
+.right_aside_header {
+
+}
+.nav_tabs {
+
+}
+.footer {
+
+}
+.footer_input {
+
+}

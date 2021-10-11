@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-<header></header>
-<body>
-    
+
+<body class="body">
+    <header class="main_header">
+        <h1 class="main_header_text">Daily Journal</h1>
+    </header>
+    <main class="main">
+        <article class="entry" style="overflow-y:scroll;">
+        <h2 class="entry_header">Concepts Covered</h2>
+        <aside class="entry_aside"> date created mood drop box
+            <button type="onclick" class="edit_btn">record/edit entry</button> going here
+        </aside>
+        <div class="entry_text">
+            <p>text content for entry here</p>
+        </div>
+        <button type="onclick" class="delete_btn">Delete Entry</button>
+    </article>
+    </main>
+    <aside class="right_aside">
+        <h3 class="right_side_header">Previous Entries</h3>
+        <ul class="nav_tabs">
+            <li>link to journal entry</li>
+            <li> showing the concept covered</li>
+            <li>and the date it was logged</li>
+            <li>maybe even a fast delete button</li>
+        </ul>
+    </aside>
 
 
-<script src="notes.js"></script>
+    <script src="Scripts/notes.js"></script>
 </body>
-<footer></footer>
+<footer class="footer">
+    <h6 class="footer_input">
+        Created by Jacob Kunsman <a href=https://github.com/jkunsman76">GitHub</a>
+    </h6>
+</footer>
+
 </html>
