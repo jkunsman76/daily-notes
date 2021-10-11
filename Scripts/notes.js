@@ -6,22 +6,23 @@ const notes = [
         feeling: "Struggled to stay focused really bad. i understand the syntax of javaScript somewhat but i need clarification on somethings.",
         timeSpent: 4
     },
+    {
+        id: 2,
+        subject: "JavaScript",
+        date: "10/6",
+        feeling: "Got some help this morning and got some really good sleep last night. feeling better and learning everyday.",
+        timeSpent: 2,
+    }
 ]
 
-const note2 = {
-    id: 2,
-    subject: "JavaScript",
-    date: "10/6",
-    feeling: "Got some help this morning and got some really good sleep last night. feeling better and learning everyday.",
-    timeSpent: 2,
-}
-notes.push(note2)
+
 const note3 = {
-    subject: "JavaScript",
-    date: "10/7",
-    feeling: "Working on getting the hang on function.",
-    timeSpent: 2
+    subject: "concepts covered",
+    date: "new Date()",
+    feeling: "text",
+    timeSpent: "time"
 }
+
 const createNote = (note) => {
     const lastIndex = note.length - 1
     const currentLastItem = note[lastIndex]
