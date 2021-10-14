@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Journal</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Styles/main.css">
 </head>
 
 <body class="body">
@@ -14,26 +14,29 @@
         <h1 class="main_header_text">Daily Journal</h1>
     </header>
     <main class="main">
-        <article class="entry" style="overflow-y:scroll;">
-        <h2 class="entry_header">Concepts Covered</h2>
-        <aside class="entry_aside"> date created mood drop box
-            <button type="onclick" class="edit_btn">record/edit entry</button> going here
+        <article class="entry">
+            <h2 class="entry_header">Concepts Covered</h2>
+            <div class="entry_content">
+                <aside class="entry_aside"> date created mood drop box
+                    <button type="onclick" class="edit_btn">record/edit entry</button> going here
+                </aside>
+                <div class="entry_text" style="overflow-y:scroll">
+                    <p>text content for entry here</p>
+                </div>
+                <button type="onclick" class="delete_btn">Delete Entry</button>
+            </div>
+        </article>
+
+        <aside class="right_aside">
+            <h3 class="right_side_header">Previous Entries</h3>
+            <ul class="nav_tabs">
+                <li>link to journal entry</li>
+                <li> showing the concept covered</li>
+                <li>and the date it was logged</li>
+                <li>maybe even a fast delete button</li>
+            </ul>
         </aside>
-        <div class="entry_text">
-            <p>text content for entry here</p>
-        </div>
-        <button type="onclick" class="delete_btn">Delete Entry</button>
-    </article>
     </main>
-    <aside class="right_aside">
-        <h3 class="right_side_header">Previous Entries</h3>
-        <ul class="nav_tabs">
-            <li>link to journal entry</li>
-            <li> showing the concept covered</li>
-            <li>and the date it was logged</li>
-            <li>maybe even a fast delete button</li>
-        </ul>
-    </aside>
 
 
     <script src="Scripts/notes.js"></script>

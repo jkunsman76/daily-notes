@@ -9,35 +9,69 @@ body {
 
 }
 .main {
-
+    display:flex;
 }
 .entry {
-display:flex;
-flex: 3;
-flex-wrap: nowrap;
-overflow:scroll;
-overflow-x:hidden;
+    display:flex;
+    flex: 3;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 .entry_header {
-
+    align-items: center;
+    text-align: center;
 }
-.entry_aside {
-
+.entry_content {
+    display: flex;
+    flex-direction: row-reverse;
 }
+
 .entry_text {
-    background-color: #F5F5F5;
-    border: 1px solid #DDDDDD;
+    
+    flex: 3;
+    justify-content: center;
+    alignitems: center;
+    background-color: #d3cfcf;
+    border: 1px solid #999999;
     border-radius: 4px 0 4px 0;
     color: #3B3C3E;
     font-size: 12px;
     font-weight: bold;
     left: -1px;
     padding: 10px 7px 5px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+.entry_aside {
+    flex:1;
+    background-color: #d3cfcf;
+    border: 1px solid #999999;
+    border-radius: 4px 0 4px 0;
+    color: #3B3C3E;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 10px 7px 5px;
+   }
+.edit_btn {
+    max-width: 75px;
+    height: 30px;
+    background-color: powderblue;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: 10px;
+}
+.delete_btn{
+    max-width: 75px;
+    height: 30px;
+    background-color: powderblue;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: 10px;
 }
 .right_aside {
-display:flex;
-flex:1;
-flex-wrap: nowrap;
+    flex:1;
+    flex-wrap: nowrap;        
 }
 .right_aside_header {
 
